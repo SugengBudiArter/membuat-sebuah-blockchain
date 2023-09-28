@@ -55,8 +55,8 @@ class Blockchain {
 }
 
 const ArterChain = new Blockchain();
-ArterChain.addBlock(new Block(Date.now().toString(), ["Sugeng Dwi Budi Priantoro"]));
-ArterChain.addBlock(new Block(Date.now().toString(), ["Bima Jadiva"]));
-ArterChain.addBlock(new Block(Date.now().toString(), ["Nurul Azizah"]));
+ArterChain.addBlock(new Block(Date.now().toString(), ["Sugeng Dwi Budi Priantoro 1"]));
+ArterChain.addBlock(new Block(Date.now().toString(), ["Sugeng Dwi Budi Priantoro 2"]));
+ArterChain.addBlock(new Block(Date.now().toString(), ["Sugeng Dwi Budi Priantoro 3"]));
 
 console.log(ArterChain);
